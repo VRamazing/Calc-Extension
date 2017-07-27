@@ -1,0 +1,20 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif; }
+
+
+/*body{width:400px;
+   height:auto;
+    padding:5px  10px 0 10px ;
+    margin:0px;}*/
+
+/*# sourceMappingURL=style.css.map */
+
+
+.calc-str{
+	color:green;
+	height:700px;
+	width:300px;
+}
