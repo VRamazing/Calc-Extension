@@ -1,17 +1,16 @@
 {
   "manifest_version": 2,
 
-  "name": "Random Quote Generator",
-  "description": "This extension generates random inspirational quotes.",
+  "name": "Mr calci",
+  "description": "Basic Calculator for Chrome",
   "version": "1.0",
 
   "browser_action": {
-    "default_icon": "qt1.png",
     "default_popup": "index.html"
   },
   "icons": {
-    "60":"qt.png",
-    "30":"qt.png"
+    "60":"calci.png",
+    "30":"calc.png"
 },
   "permissions": [
     "activeTab"

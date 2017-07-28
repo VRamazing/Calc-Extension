@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Random quote</title>
+    <title>Mr Calci</title>
     <link rel='stylesheet' href='stylesheets/style.css' />
     <link rel='stylesheet' href='stylesheets/bootstrap.min.css' />
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -12,91 +12,95 @@
     <center>
     	 <div class ="row calc-str">
             <br>
-            <div class ="row disp-str">
-                
+            <div class ="row disp">
+                <p class="disp-str" id="disp-str">709</p>
+                <p class="output-str" id="output-str">132213213</p>
+
             </div>
             <div class = "row btn-row-1">
                 <br>
-                <button class = "btn btn-lg btn-warning">
+                <button class = "btn btn-lg btn-warning" onclick = "update('AC','sp')">
                       AC
                 </button>
-                <button class = "btn btn-lg btn-warning">
+                <button class = "btn btn-lg btn-warning" onclick = "update('CE','sp')">
                       CE
                 </button>
-                <button class = "btn btn-lg btn-info">
+                <button class = "btn btn-lg btn-info" onclick = "update('/','op')">
                       /
                 </button>
-                <button class = "btn btn-lg btn-info">
+                <button class = "btn btn-lg btn-info" onclick = "update('X','op')">
                       X
                 </button>
             </div>
              <div class = "row btn-row-2">
                 <br>
-                <button class = "btn btn-lg btn-info">
+                <button class = "btn btn-lg btn-info" onclick = "update('7','num')">
                       7
                 </button>
-                <button class = "btn btn-lg btn-info">
+                <button class = "btn btn-lg btn-info" onclick = "update('8','num')">
                       8
                 </button>
-                <button class = "btn btn-lg btn-info">
+                <button class = "btn btn-lg btn-info" onclick = "update('9','num')">
                       9
                 </button>
-                <button class = "btn btn-lg btn-info">
+                <button class = "btn btn-lg btn-info" onclick = "update('-','op')">
                       -
                 </button>
             </div>
 
              <div class = "row btn-row-3">
                 <br>
-                <button class = "btn btn-lg btn-info">
+                <button class = "btn btn-lg btn-info" onclick = "update('4','num')">
                       4
                 </button>
-                <button class = "btn btn-lg btn-info">
+                <button class = "btn btn-lg btn-info" onclick = "update('5','num')">
                       5
                 </button>
-                <button class = "btn btn-lg btn-info">
+                <button class = "btn btn-lg btn-info" onclick = "update('6','num')">
                       6
                 </button>
-                <button class = "btn btn-lg btn-info">
+                <button class = "btn btn-lg btn-info" onclick = "update('+','op')">
                       +
                 </button>
             </div>
             
             <div class = "row">
-              <div class ="col-sm-10">
+              <div class ="col-xs-10">
                   <div class = "row row-4">
                     <br>
-                    <button class = "btn btn-lg btn-info">
+                    <button class = "btn btn-lg btn-info" onclick = "update('1','num')">
                           1
                     </button>
-                    <button class = "btn btn-lg btn-info">
+                    <button class = "btn btn-lg btn-info" onclick = "update('2','num')">
                           2
                     </button>
-                    <button class = "btn btn-lg btn-info">
+                    <button class = "btn btn-lg btn-info" onclick = "update('3','num')">
                           3
                     </button>
                   </div>
                   <div class="row row-4">
                     <br>
-                    <button class = "btn btn-lg btn-info btn-zero">
+                    <button class = "btn btn-lg btn-info btn-zero" onclick = "update('0','num')">
                             0
                     </button>
 
-                    <button class = "btn btn-lg btn-info">
+                    <button class = "btn btn-lg btn-info" onclick = "update('.','num')">
                             .
                     </button>
                   </div>
+                  <br>
                   
               </div>
               
 
-              <div class = "col-sm-2">
+              <div class = "col-xs-2">
                   <br>
-                  <button class = "btn btn-lg btn-info btn-eq">
+                  <button class = "btn btn-lg btn-info btn-eq" onclick = "update('=','op')">
                         =
                   </button>
-              
+                  <br>
               </div>
+
 
             </div>
 
@@ -105,10 +109,10 @@
     </center>
   
 
-
+  <script src = "javascripts/main.js"></script>
   <script src = "javascripts/jquery.min.js"></script>
   <script src = "javascripts/bootstrap.min.js"></script>
-  <script src = "javascripts/main.js"></script>
+
 
   
   </body>
