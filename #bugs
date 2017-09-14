@@ -1,0 +1,5 @@
+#bugs
+
+1. Should have a feature of digit limit reached so that entered value doesn't exceed the screen(10 digit)
+2. Initially should show zero
+3. Ouput string is blanked only when a operator is entered.
